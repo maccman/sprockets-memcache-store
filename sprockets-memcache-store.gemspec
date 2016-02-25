@@ -1,12 +1,11 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = "sprockets-memcache-store"
-  spec.version       = '0.0.3'
+  spec.version       = '0.0.4'
   spec.authors       = ["Alex MacCaw"]
   spec.email         = ["maccman@gmail.com"]
   spec.description   = %q{A Memcache store for Sprockets using Dalli}
   spec.summary       = %q{A Memcache store for Sprockets using Dalli}
-  spec.homepage      = ""
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,4 +17,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
 
   spec.add_dependency "dalli"
+  spec.add_dependency "sprockets", '~>3.5.2'
 end
