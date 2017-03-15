@@ -1,4 +1,6 @@
 require 'dalli'
+require 'sprockets'
+require 'sprockets/cache'
 
 module Sprockets
   class Cache
